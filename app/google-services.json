@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "229998861557",
+    "project_id": "petmartproject",
+    "storage_bucket": "petmartproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229998861557:android:554ec21993a679539639bc",
+        "android_client_info": {
+          "package_name": "com.example.petmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZz7HUgsrLOb61zzt2BahvBCPyToylcd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

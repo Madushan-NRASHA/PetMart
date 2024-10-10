@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductActivity">
+
+    <TextView
+        android:id="@+id/productsTitle"
+        android:layout_width="264dp"
+        android:layout_height="55dp"
+        android:text="Products Management"
+        android:textColor="@color/primary"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+    <Button
+        android:id="@+id/addProductsBtn"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="@color/black"
+        android:padding="16dp"
+        android:text="Add Products"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productsTitle"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/viewProductsBtn"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/black"
+        android:padding="16dp"
+        android:text="View/Edit Products"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addProductsBtn"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Button
+        android:id="@+id/deleteProductsBtn"
+        android:layout_width="325dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/black"
+        android:padding="16dp"
+        android:text="Edit Products"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewProductsBtn"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
