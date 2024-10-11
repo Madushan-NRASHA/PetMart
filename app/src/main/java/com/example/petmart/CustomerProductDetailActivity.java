@@ -116,5 +116,13 @@ private void multiplyAmount() {
     }
 }
 
-
+private  void cartController(){
+    databaseReference.child("price").setValue(showTot_price)
+            .addOnSuccessListener(aVOID->{
+                Toast.makeText(this,"Successfully Add price to Cart",Toast.LENGTH_SHORT).show();
+            })
+            .addOnFailureListener(aVOID->{
+                Toast.makeText(this,"Failed to Add Price to Cart",Toast.LENGTH_SHORT).show();
+            });
+}
 }
